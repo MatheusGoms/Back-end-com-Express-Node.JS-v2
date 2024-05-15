@@ -3,12 +3,14 @@ Versão Final do Projeto da Pós Graduação em Desenvolvimento Web Full Stack.
 Projeto de Cadastro de Livros/Autores
 
 Rotas: Livros e Autores
-Funcionalidades da Rota de Livro: (1)Listar Livros, (2)Listar Livros por ID, (3)Cadastrar Livros, (4) Autualizar Livros, (5)Excluir Livro, (6)Listar Livro por Filtro.
+Funcionalidades das Rotas de Livro/Autor: (1)Listar/Autor Livros, (2)Listar Livros/Autor por ID, (3)Cadastrar Livros/Autor, (4) Autualizar Livros/Autor, (5)Excluir Livro/Autor, (6)Listar Livro por Filtro.
 Obs: 
 No banco foi definido duas editoras "Classicos" e "Netflix" então sempre que for cadastrar algum livro e for adicionar uma editora, utilize uma dessas editoras.
-É possível filtrar os livros utlizando a Editora como paramentro de busca. Ex: http://localhost:3000/livros/busca?editora=Classicos
+É possível filtrar os livros utlizando a Editora como paramentro de busca. Ex: http://BANCODEDADOS/livros/busca?editora=Classicos
 Para cadatrar um livro é necessário cadastrar um "Autor" em seguida utilize o "ID do Autor" para cadastrar o "Livro" 
 Ex: 
+
+Cadastrar Autor:
 
 {
     "nome": "nome do autor",
@@ -20,7 +22,7 @@ Ex:
  {
     "titulo": "nome do livro",
     "autor": "id do autor",
-    "editora": "Netflix",
+    "editora": "Netflix" ou "Classicos",
     "numeroPaginas": 200
 }
 
