@@ -21,11 +21,12 @@ Ex:
     "titulo": "nome do livro",
     "autor": "id do autor",
     "editora": "Netflix",
-    "preco": 10,
-    "paginas": 200
+    "numeroPaginas": 200
 }
 
 
 
 Foi utilizado o MongoDB para fazer a conexão com o banco de dados.
+Foi definido a quantidade de Livros/Autores que serão exibidos por páginas.
+
  
