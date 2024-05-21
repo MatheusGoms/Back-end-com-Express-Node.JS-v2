@@ -29,6 +29,6 @@ Cadastrar Autor:
 
 
 Foi utilizado o MongoDB para fazer a conexão com o banco de dados.
-Foi definido a quantidade de Livros/Autores que serão exibidos por páginas.
+Foi definida a quantidade de Livros/Autores que serão exibidos por páginas.
 
  
